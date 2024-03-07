@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Nicole's website</title>
+  </head>
+
+  <a id="sec-01"></a>
+  <body>
+    <section class="sec-01">
+      <a id="sec-01"></a>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="sec-01-intro">
+        <h1>Hi there! I'm Nicole</h1>
+        <h2>A Computer Science Student from HKBU</h2>
+        <a href="#sec-02" class="quicksand">Let's Go!</a>
+      </div>
+    </section>
+
+    <a id="sec-02"></a>
+    <section class="sec-02">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="content">
+          <div class="image">
+            <img src="images/Girl.jpg" alt="" />
+          </div>
+
+          <div class="text-box">
+            <p>
+              It's not only writers who can benefit from this free online tool.
+              If you're a programmer who's working on a project where blocks of
+              text are needed, this tool can be a great way to get that. It's a
+              good way to test your programming and that the tool being created
+              is working well.
+            </p>
+            <a href="me.html">More about me</a>
+          </div>
+        </div>
+        <a href="#sec-03"
+          ><img class="continue-btn" src="images/arrow.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <a id="sec-03"></a>
+    <section class="sec-03">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <div class="image">
+            <img src="images/185.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h3 class="info-title">Soft Skills</h3>
+            <p>
+              While it may not be obvious to everyone, there are a number of
+              reasons creating random paragraphs can be useful. A few examples
+              of how some people use this generator are listed in the following
+              paragraphs.
+            </p>
+          </div>
+        </div>
+        <a href="#sec-04"
+          ><img class="continue-btn" src="images/arrow.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <a id="sec-04"></a>
+    <section class="sec-04">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="content">
+            <div class="glass">
+              <table>
+                <tr>
+                  <th>School</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                  <td>Sacred Heart Canossion College</td>
+                  <td>2013-2020</td>
+                </tr>
+                <tr>
+                  <td>Hong Kong Baptist University <br>[Bachelor of Computer Science]</td>
+                  <td>2020-2024</td>
+                </tr>
+              </table>
+                <a href="#sec-05"><button class="break">Continue</button></a>
+              
+            </div>
+          </div>
+          <img src="images/hkbu_transparent.png" alt="" class="img">
+      </div>
+    </section>
+
+    <a id="sec-05"></a>
+    <section class="sec-05">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <a href="#sec-01" class="quicksand">Back to top!</a>
+    </section>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".section-title", {
+        delay: 500,
+        origin: "left",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".sec-01-intro", { delay: 500, distance: "100px" });
+      ScrollReveal().reveal(".image", {
+        delay: 500,
+        origin: "bottom",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".text-box", {
+        delay: 700,
+        origin: "right",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".continue-btn", {
+        delay: 700,
+        origin: "bottom",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".glass", {
+        delay: 700,
+        origin: "right",
+        distance: "100px",
+      });
+    </script>
+  </body>
+</html>

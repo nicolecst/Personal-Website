@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About me</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <section class="sec-06">
+    <div class="container">
+      <h2 class="section-title"><span><a href="/index.html"><i class="fa fa-arrow-left" style="color: #fff; margin: 20px;"></i></a></span> Favorites</h2>
+      <div class="content">
+        <div class="fav-info">
+          <li><i class="fa fa-paint-brush" style="color: #fff; margin: 20px"></i><a href="">Handicrafts</a></li>
+          <li><i class="fa fa-user-times" style="color: #fff; margin: 20px"></i><a href="">Me-time</a></li>
+          <li><i class="fa fa-film" style="color: #fff; margin: 20px"></i><a href="#sec-07">Movies</a></li>
+          <li><i class="fa fa-music" style="color: #fff; margin: 20px"></i><a href="#sec-08">Music</a></li>
+          <li><i class="fa fa-paw" style="color: #fff; margin: 20px"></i><a href="#sec-09">Cats</a></li>
+        </div>
+        <div class="fav-img">
+          <img src="images/favorites.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<a id="sec-07"></a>
+    <section class="sec-07">
+      <div class="container">
+        <h2 class="section-title">Favorite Movies</h2>
+        <h3 class="section-sub-title">My childhood memories</h3>
+        <div class="fav">
+          <div class="card">
+            <img src="images/Frozen.png" alt="">
+          </div>
+          <div class="card">
+            <img src="images/Nemo.jpeg" alt="">
+          </div>
+          <div class="card">
+            <img src="images/toyStory.jpg" alt="">
+          </div>
+          <div class="card">
+            <img src="images/FreakyFri.jpg" alt="">
+          </div>
+          <div class="card">
+            <img src="images/Devil.jpg" alt="">
+          </div>
+          <div class="card">
+            <img src="images/Beauty.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <a id="sec-08"></a>
+    <section>
+      <div class="container">
+        <div class="section-title">Favorite Music</div>
+        <div class="sec-08-content">
+          <iframe width="1446" height="580" src="https://www.youtube.com/embed/Gru4IfbKlfU" title="Bobby Caldwell - What You Won&#39;t Do for Love (Album Version)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <a id="sec-09"></a>
+    <section class="sec-08">
+      <div class="container">
+        <h2 class="section-title">My Cats</h2>
+        <div class="content">
+          <div>
+            <img class="sec-09-img left" src="images/cat1.JPG" alt="">
+            <img class="sec-09-img right" src="images/cat2.JPG" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal(".section-title, .section-sub-title", {
+        delay: 300,
+        origin: "left",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".fav-info li", {
+        delay: 1000,
+        origin: "left",
+        distance: "100px",
+        interval: 200,
+      });
+      ScrollReveal().reveal(".fav-img", {
+        delay: 1000,
+        origin: "right",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".fav-img", {
+        delay: 1000,
+        origin: "right",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".left", {
+        delay: 1000,
+        origin: "left",
+        distance: "100px",
+      });
+      ScrollReveal().reveal(".right", {
+        delay: 1000,
+        origin: "right",
+        distance: "100px",
+      });
+
+    </script>
+</body>
+</html>
