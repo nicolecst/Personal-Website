@@ -83,6 +83,8 @@ a{
   font-size: 24px;
   font-weight: 50;
   -webkit-text-stroke: 0.1vw #15F5BA;
+  margin-top: 0;
+  margin-bottom: 0;
   
 }
 
@@ -143,6 +145,7 @@ a{
 }
 
 .card{
+  margin-top: 0;
   background-color: #fff;
   height: 250px;
   width: 250px;
@@ -163,8 +166,8 @@ a{
 }
 .card:hover{
   transition: 0.5s ease-in-out;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
 .fav{
@@ -274,7 +277,7 @@ color: #15F5BA;
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #fff;
-  height: 650px;
+  height: 600px;
   width: 640px;
   border-radius: 10px;
   align-items: center;
