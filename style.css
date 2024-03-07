@@ -269,9 +269,15 @@ a{
 color: #15F5BA;
 }
 .sec-08-content{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #fff;
-  height: 400px;
-  width: 80%;
+  height: 650px;
+  width: 640px;
+  border-radius: 10px;
+  align-items: center;
 }
 .sec-09-img{
   height: 400px;
@@ -279,7 +285,11 @@ color: #15F5BA;
   border-radius: 50%;
   object-fit: cover;
   margin: 40px;
-  
+}
+.play-timeline{
+  height: 3px;
+  width: 400px;
+  background-color: black;
 }
 
 .circles{
