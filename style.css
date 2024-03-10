@@ -27,7 +27,7 @@ a{
 }
 
 .continue-btn{
-  margin-top: 200px;
+  margin-top: 100px;
   height: 80px;
   width: 80px;
 }
@@ -48,7 +48,7 @@ a{
 }
 
 .sec-01 h2 {
-    color: #211951;
+    color: #4131a0;
   font-family: "Bungee", sans-serif;
   font-size: 36px;
   font-weight: 50;
@@ -99,8 +99,8 @@ a{
 .content .image {
   position: relative;
   overflow: hidden;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
 }
 
 .content .image img {
@@ -118,7 +118,7 @@ a{
   background-color: rgb(33, 25, 81, 0.1);
   backdrop-filter: blur(20px);
   padding: 40px;
-  max-width: 500px;
+  max-width: 550px;
   border: 1px solid rgb(33, 25, 81, 0.1);
   border-radius: 10px;
   transform: translate(-80px, 50px);
@@ -277,10 +277,11 @@ color: #15F5BA;
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #fff;
-  height: 600px;
-  width: 640px;
+  height: 470px;
+  width: 440px;
   border-radius: 10px;
   align-items: center;
+  box-shadow: 0 0 10px 1em #5d5395;
 }
 .sec-09-img{
   height: 400px;
@@ -291,7 +292,7 @@ color: #15F5BA;
 }
 .play-timeline{
   height: 3px;
-  width: 400px;
+  width: 300px;
   background-color: black;
 }
 

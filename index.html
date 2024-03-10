@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Nicole's website</title>
   </head>
@@ -53,13 +57,15 @@
           </div>
 
           <div class="text-box">
+            <p style="font-weight: 1000;">Hey there! This is Nicole!</p>
             <p>
-              It's not only writers who can benefit from this free online tool.
-              If you're a programmer who's working on a project where blocks of
-              text are needed, this tool can be a great way to get that. It's a
-              good way to test your programming and that the tool being created
-              is working well.
+              As a computer science student, I have been coding for the past few
+              years. I have always been fascinated about the frontend design
+              world and are persistently norishing my skills. I consider myself
+              an outgoing person and like to communicate and collaborate with
+              different people, knowing their thoughts and ideas.
             </p>
+            <p style="color: #D3D3D3;">Scroll/ click the button the know about my development journey! <br/> Or click the link below to know more about my favorites!</p>
             <a href="me.html">More about me</a>
           </div>
         </div>
@@ -78,13 +84,39 @@
             <img src="images/185.jpg" alt="" />
           </div>
           <div class="info">
-            <h3 class="info-title">Soft Skills</h3>
-            <p>
+            <!-- <h3 class="info-title">Soft Skills</h3> -->
+            <table class="skills">
+              <tr>
+                <td>HTML, CSS, JS</td>
+                <td>
+                  <div id="html"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Web development (vue & node)</td>
+                <td>
+                  <div id="web"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Figma</td>
+                <td>
+                  <div id="figma"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>
+                  <div id="java"></div>
+                </td>
+              </tr>
+            </table>
+            <!-- <p>
               While it may not be obvious to everyone, there are a number of
               reasons creating random paragraphs can be useful. A few examples
               of how some people use this generator are listed in the following
               paragraphs.
-            </p>
+            </p> -->
           </div>
         </div>
         <a href="#sec-04"
@@ -95,29 +127,31 @@
 
     <a id="sec-04"></a>
     <section class="sec-04">
-        <div class="container">
-          <h2 class="section-title">Education</h2>
-          <div class="content">
-            <div class="glass">
-              <table>
-                <tr>
-                  <th>School</th>
-                  <th>Year</th>
-                </tr>
-                <tr>
-                  <td>Sacred Heart Canossion College</td>
-                  <td>2013-2020</td>
-                </tr>
-                <tr>
-                  <td>Hong Kong Baptist University <br>[Bachelor of Computer Science]</td>
-                  <td>2020-2024</td>
-                </tr>
-              </table>
-                <a href="#sec-05"><button class="break">Continue</button></a>
-              
-            </div>
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <div class="glass">
+            <table>
+              <tr>
+                <th>School</th>
+                <th>Year</th>
+              </tr>
+              <tr>
+                <td>Sacred Heart Canossion College</td>
+                <td>2013-2020</td>
+              </tr>
+              <tr>
+                <td>
+                  Hong Kong Baptist University <br />[Bachelor of Computer
+                  Science]
+                </td>
+                <td>2020-2024</td>
+              </tr>
+            </table>
+            <a href="#sec-05"><button class="break">Continue</button></a>
           </div>
-          <img src="images/hkbu_transparent.png" alt="" class="img">
+        </div>
+        <img src="images/hkbu_transparent.png" alt="" class="img" />
       </div>
     </section>
 
@@ -125,6 +159,7 @@
     <section class="sec-05">
       <div class="container">
         <h2 class="section-title">Experience</h2>
+        <div class="content"></div>
       </div>
       <a href="#sec-01" class="quicksand">Back to top!</a>
     </section>
@@ -163,6 +198,32 @@
         origin: "right",
         distance: "100px",
       });
+      ScrollReveal().reveal(".skills", {
+        delay: 700,
+        origin: "right",
+        distance: "100px",
+      });
+
+      function appendIconElements(parentContainerId, numberOfIterations) {
+        var parentContainer = document.getElementById(parentContainerId);
+
+        for (var i = 0; i < numberOfIterations; i++) {
+          var stars = document.createElement("i");
+
+          stars.className = "fa fa-star";
+          stars.style.color = "#fff";
+          stars.style.margin = "8px";
+
+          parentContainer.appendChild(stars);
+        }
+      }
+
+      appendIconElements("html", 3);
+      appendIconElements("web", 3);
+      appendIconElements("figma", 4);
+      appendIconElements("java", 2);
+
+      // Create the <i> element
     </script>
   </body>
 </html>
