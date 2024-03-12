@@ -477,10 +477,10 @@ color: #15F5BA;
 
 @keyframes animate2 {
   0%{
-    transform: translateY(50vh)scale(0);
+    transform: translateY(-40vh)scale(1);
   }
   100%{
-    transform: translateY(-50vh)scale(1);
+    transform: translateY(50vh)scale(0);
   }
 }
 .bubbles span:nth-child(even){
