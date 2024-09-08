@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>HKGo!</title>
+  </head>
+  <body>
+    <a id="sec-11"></a>
+    <section class="sec-11">
+      <div class="container">
+        <h2 class="section-title">
+          <span
+            ><a href="index.html"
+              ><i
+                class="fa fa-arrow-left"
+                style="color: #fff; margin: 20px"
+              ></i></a
+          ></span>
+          Project Overview
+          <i class="fa fa-bullhorn" style="color: #fff; margin-left: 10px"></i>
+        </h2>
+        <div class="all-content">
+            <img src="images/thinker.jpg" alt="" />
+            <div class="content">
+          <div class="text-box">
+            <p style="font-weight: 1000; font-size: 20px">
+              Project Objective<i
+                class="fa fa-star"
+                style="color: #fff; margin: 5px"
+              ></i>
+            </p>
+            <p>
+              The project objective is to design a convenient and engaging
+              mobile application which enhances the travel experiences for local
+              and global travelers, allowing them to plan itineraries, know new
+              friends, provide and gain insights.
+            </p>
+          </div>
+          <div class="content-circle">
+            <!-- <img src="images/thinker.jpg" alt="" /> -->
+            <div class="circle-text-box">
+              <p style="font-weight: 1000; font-size: 20px">
+                Primary Audience<i
+                  class="fa fa-user"
+                  style="color: #fff; margin: 5px"
+                ></i>
+              </p>
+              <p>
+                Tech-savvy users ages 18-50 who lack travel experiences or
+                itinerary organizational skills and are looking for a tool to
+                arrange their itineraries and gain insights.
+              </p>
+            </div>
+            <div class="circle-text-box">
+              <p style="font-weight: 1000; font-size: 20px">
+                Secondary Audience<i
+                  class="fa fa-users"
+                  style="color: #fff; margin: 5px"
+                ></i>
+              </p>
+              <p>
+                Experienced travelers and small local businesses to make
+                activities recommendations or promote their businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <a href="#sec-12"
+          ><img class="continue-btn" src="images/arrow.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: "60px",
+            duration: 2500,
+            delay: 400,
+          });
+
+          ScrollReveal().reveal(".section-title", {
+            delay: 500,
+            origin: "left",
+            distance: "100px",
+          });
+          ScrollReveal().reveal("img", {
+            delay: 500,
+            origin: "bottom",
+            distance: "100px",
+          });
+          ScrollReveal().reveal(".all-content", {
+            delay: 500,
+            origin: "right",
+            distance: "200px",
+          });
+          ScrollReveal().reveal(".continue-btn", {
+            delay: 700,
+            origin: "bottom",
+            distance: "100px",
+          });
+    </script>
+  </body>
+</html>
