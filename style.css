@@ -413,6 +413,32 @@ color: #15F5BA;
   align-items: center;
   width: 85%;
 }
+.sec-12 .right img{
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  transform: translateY(50px);
+}
+.sec-12 .text-box{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  max-width: 900px;
+  background-color: rgba(33, 25, 81, 0.701);
+  border: 1px solid rgba(136, 116, 249, 0.423);
+
+}
+.sec-12 .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-12 .content{
+  width: 90%;
+}
 
 .circles{
   position: absolute;
