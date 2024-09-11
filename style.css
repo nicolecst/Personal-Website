@@ -379,6 +379,7 @@ color: #15F5BA;
   justify-content: center;
   padding: 10px;
   transform: translate(0px, 0px);
+  border-color: rgba(155, 137, 255, 0.1);
 }
 .circle-text-box{
   height: 250px;
@@ -400,18 +401,17 @@ color: #15F5BA;
   align-items: center;
 }
 .sec-11 .all-content img{
-  height: 400px;
-  width: 450px;
-  object-fit: cover;
-  object-position: right bottom;
-  border-radius: 20px;
-  transform: translate(120px);
+  height: 650px;
+  width: 333px;
+  border-radius: 50px;
+  object-fit: fill;
 }
 .sec-11 .all-content{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 85%;
 }
 
 .circles{
