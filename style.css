@@ -516,6 +516,56 @@ color: #15F5BA;
   max-width: 400px; 
   line-height: 1.5em; 
 }
+.sec-22 .text-box{
+  max-width: 800px;
+  transform: translate(0px, 0px);
+  padding: 20px;
+}
+.sec-22 .content{
+  display: flex;
+  flex-direction: column;
+}
+.sec-22 .row{
+  display: flex;
+  flex-direction: row;
+}
+.sec-22 .small-text-box{
+  height: 200px;
+  width: 350px;
+}
+.sec-22{
+  background: transparent;
+}
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #4131a0 50%, #211951 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
 .circles{
   position: absolute;
     top: 0;
