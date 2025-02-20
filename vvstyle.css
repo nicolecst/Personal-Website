@@ -1,0 +1,280 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #fff;
+  background-color: rgb(32, 32, 32);
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 3em;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 2.2em;
+  font-style: normal;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  font-style: italic;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+}
+ul {
+  font-family: "Quicksand", sans-serif;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+}
+.sec-01 {
+  background: linear-gradient(#211951, #3d0a11, #5c1b1b);
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave .shape-fill {
+  fill: rgb(32, 32, 32);
+}
+.sec-02 {
+  /* background: linear-gradient(#202020, #2e2626, #5c1b1b); */
+  background-color: #202020;
+  min-height: 600px;
+}
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.right {
+  width: 60%;
+}
+.right img {
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 50px;
+}
+.text-box {
+  z-index: 222;
+  background-color: rgb(33, 25, 81, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.5em;
+}
+.sec2img1 {
+  width: 60%;
+  position: absolute;
+  left: 0;
+  transform: translate(-400px, -200px);
+  z-index: 999;
+}
+.sec2img2 {
+  width: 60%;
+  position: absolute;
+  right: 0;
+  transform: translateX(400px);
+  z-index: 999;
+}
+.sec-02 .text-box {
+    margin: 30px;
+  width: 40%;
+  padding: 15px;
+  justify-content: center;
+}
+.sec-02 ul {
+  line-height: 1.5em;
+  padding-bottom: 50px;
+}
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+    transform: rotateY(180deg);
+}
+
+.wave2 .shape-fill {
+    fill: #5c1b1b;
+}
+.sec-03{
+    background-color: #5c1b1b;
+    max-height: 700px;
+}
+.icons img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.icons img:nth-child(1){
+    left: 10px;
+    top: 230px;
+}
+.icons img:nth-child(2){
+    left: 280px;
+    top: 350px;
+}
+.icons img:nth-child(3){
+    left: 630px;
+    top: 210px;
+}
+.icons img:nth-child(4){
+    left: 1000px;
+    top: 320px;
+}
+.icons img:nth-child(5){
+    left: 1300px;
+    top: 200px;
+}
+svg {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 1000;
+    pointer-events: none;
+  }
+  svg {
+    animation: animateDash 30s linear forwards infinite;
+  }
+  @keyframes animateDash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  .wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 161px;
+    transform: rotateY(180deg);
+}
+
+.wave3 .shape-fill {
+    fill: #101010;
+}
+.sec-04{
+    background-color: #101010;
+    height: 1450px;
+}
+.persona{
+    z-index: 10;
+}
+.persona img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+.persona img:nth-child(1){
+    transform: translateX(600px);
+}
+.persona img:nth-child(2){
+    transform: translate(100px, 100px);
+}
+.sec-04 .bg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    overflow: hidden;
+}
+.wave4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 52px;
+    transform: rotateY(180deg);
+}
+
+.wave4 .shape-fill {
+    fill: #701e1e;
+}
+.sec-05{
+    background-color: #701e1e;
+    height: 1000px;
+}
+.ujm{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+.wave5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave5 svg {
+    position: relative;
+    display: block;
+    width: calc(194% + 1.3px);
+    height: 138px;
+    transform: rotateY(180deg);
+}
+
+.wave5 .shape-fill {
+    fill: #202020;
+}
