@@ -689,8 +689,8 @@ svg {
 .wave11 .shape-fill {
   fill: #202020;
 }
-.sec-12{
-    height: 2000px;
+.sec-12 {
+  height: 2000px;
 }
 .test-row1 {
   display: flex;
@@ -756,29 +756,29 @@ svg {
   text-align: center;
   font-size: 1.1em;
 }
-.test-row4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+.test-row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
-.test-row4 .test-box{
-    width: 20%;
-    height: 390px;
-    font-size: 1.1em;
-    padding: 0;
-    background-color: #7c1f1f;
+.test-row4 .test-box {
+  width: 20%;
+  height: 390px;
+  font-size: 1.1em;
+  padding: 0;
+  background-color: #7c1f1f;
 }
-.test-row4 .test-box:nth-child(2){
-    transform: translateY(80px);
+.test-row4 .test-box:nth-child(2) {
+  transform: translateY(80px);
 }
-.test-row4 .test-box:nth-child(4){
-    transform: translateY(80px);
+.test-row4 .test-box:nth-child(4) {
+  transform: translateY(80px);
 }
-.test-row4 .test-content{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+.test-row4 .test-content {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .vl {
@@ -790,99 +790,121 @@ svg {
   top: 400px;
 }
 .wave12-1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .wave12-1 svg {
-    position: relative;
-    display: block;
-    width: calc(105% + 1.3px);
-    height: 25px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 25px;
+  transform: rotateY(180deg);
 }
 
 .wave12-1 .shape-fill {
-    fill: #7c1f1f;
+  fill: #7c1f1f;
 }
-.rectangle{
-    width: 100%;
-    height: 110px;
-    background-color: #f8efe0;
-    color: #202020;
-    position: absolute;
-    top: 0;
-    text-align: center;
+.rectangle {
+  width: 100%;
+  height: 110px;
+  background-color: #f8efe0;
+  color: #202020;
+  position: absolute;
+  top: 0;
+  text-align: center;
 }
-.test-row5{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    transform: translateY(150px);
+.test-row5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  transform: translateY(150px);
 }
-.test-row5 .test-box{
-    width: 20%;
-    height:250px;
-    font-size: 1.1em;
-    padding: 0;
-    text-align: center;
-    background-color: #f8efe0;
-    color: #373737;
+.test-row5 .test-box {
+  width: 20%;
+  height: 250px;
+  font-size: 1.1em;
+  padding: 0;
+  text-align: center;
+  background-color: #f8efe0;
+  color: #373737;
 }
-.test-row5 .test-box:nth-child(2){
-    transform: translateY(80px);
+.test-row5 .test-box:nth-child(2) {
+  transform: translateY(80px);
 }
-.test-row5 .test-box:nth-child(4){
-    transform: translateY(80px);
+.test-row5 .test-box:nth-child(4) {
+  transform: translateY(80px);
 }
-.test-row5 .test-content{
-    padding: 20px;
+.test-row5 .test-content {
+  padding: 20px;
 }
-.test-row6{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+.test-row6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
-.test-row6 .test-box{
-    text-align: center;
-    width: 70%;
-    padding: 50px;
+.test-row6 .test-box {
+  text-align: center;
+  width: 70%;
+  padding: 50px;
 }
-.test-row6 .test-content p{
-    font-size: 1.1em;
-    line-height: 1.6em;
-    text-align: justify;
+.test-row6 .test-content p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: justify;
 }
 .wave12 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .wave12 svg {
-    position: relative;
-    display: block;
-    width: calc(178% + 1.3px);
-    height: 96px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(178% + 1.3px);
+  height: 96px;
+  transform: rotateY(180deg);
 }
 
 .wave12 .shape-fill {
-    fill: #3d0a11;
+  fill: #f8efe0;
 }
-.sec-13{
-    background-color: #3d0a11;
+.sec-13 {
+  background-color: #f8efe0;
+  height: fit-content;
 }
-.sec-13 a{
-    color: #d3d3d3;
+.sec-13 a {
+  color: #701e1e;
+}
+.sec-13 .test-box{
+    background-color: #202020cf;
+}
+.sec-13 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 900px;
+    transform: translate(-100px, -200px);
 }
 
+html.sr .guidelines {
+  visibility: hidden;
+}
+
+html.sr .di {
+  visibility: hidden;
+}
+html.sr .test-box {
+  visibility: hidden;
+}
