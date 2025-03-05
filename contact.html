@@ -17,33 +17,73 @@
   </head>
   <body>
     <section>
-        <ul class="nav-bar">
-            <li class="nav-bar-item"><a href="index.html">About</a></li>
-            <li class="nav-bar-item"><a href="work.html">Work</a></li>
-            <li class="nav-bar-item"><a href="contact.html">Contact</a></li>
-  
-            <div class="cursor"></div>
-          </ul>
-      <h2>Contact us</h2>
-      <form action="https://formsubmit.co/5673f8a3e5e5616504794c99d07e65ad" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Name/ Company name" required />
-        <br />
+      <ul class="nav-bar">
+        <li class="nav-bar-item"><a href="index.html">About</a></li>
+        <li class="nav-bar-item"><a href="work.html">Work</a></li>
+        <li class="nav-bar-item"><a href="contact.html">Contact</a></li>
 
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" placeholder="email" required />
-        <br />
+        <div class="cursor"></div>
+      </ul>
+      <h2>Contact me</h2>
+      <div class="background">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+       <div class="cube"></div>
+     </div>
+      <div class="form">
+        <form
+          action="https://formsubmit.co/5673f8a3e5e5616504794c99d07e65ad"
+          method="POST"
+        >
+          <div class="formRow">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name/ Company name"
+              required
+            />
+          </div>
 
-        <label for="email">Contacts: </label>
-        <input type="number" id="number" name="number" placeholder="phone number" required />
-        <br />
+          <div class="formRow">
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              required
+            />
+          </div>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="say something..." required></textarea>
-        <br />
+          <div class="formRow">
+            <label for="email">Contacts: </label>
+            <input
+              type="text"
+              id="number"
+              name="number"
+              placeholder="phone number"
+              required
+            />
+          </div>
 
-        <button type="submit">Send</button>
-      </form>
+          <div class="formRow">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="say something..."s
+              required
+            ></textarea>
+          </div>
+          <div class="buttonRow">
+            <button class="submit-btn" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
     </section>
   </body>
 </html>

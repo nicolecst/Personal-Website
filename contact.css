@@ -16,6 +16,7 @@ h2 {
   font-weight: 800;
   font-size: 2.2em;
   font-style: normal;
+  z-index: 999;
 }
 h3 {
   font-family: "Playfair Display", serif;
@@ -44,7 +45,40 @@ section {
   font-size: 18px;
   /* padding: 80px 100px; */
 }
-
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    padding: 8px;
+    font-size: 16px;
+}
+input::placeholder{
+    font-family: "Quicksand", sans-serif;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+}
+textarea::placeholder{
+    font-family: "Quicksand", sans-serif;
+}
+label{
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+}
 .nav-bar {
   list-style-type: none;
   margin: 0;
@@ -69,3 +103,114 @@ section {
   /* text-decoration: none; */
   font-size: 16px;
 }
+.form {
+  z-index: 222;
+  background-color: rgb(33, 25, 81, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  width: 35%;
+  border: 1px solid rgb(33, 25, 81, 0.3);
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.formRow{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonRow{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+    transition: 1s;
+}
+.submit-btn:hover{
+    color: #211951;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.background {
+    background: linear-gradient(132deg, #211951, #4131a0, #211951);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+  }
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #D7D4E4;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: #FFF ;
+  }
+  .cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+  }
+  .cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+  }
+  .cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+  }
+  .cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+  }
+  .cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }

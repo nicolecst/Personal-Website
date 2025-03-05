@@ -882,6 +882,7 @@ svg {
 .sec-13 {
   background-color: #f8efe0;
   height: fit-content;
+  overflow-y: hidden;
 }
 .sec-13 a {
   color: #701e1e;
