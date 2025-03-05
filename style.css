@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 section {
@@ -237,6 +238,7 @@ ul li:hover ~ .cursor{
   width: 47%;
   gap: 15px;
   padding: 20px;
+  height: 400px;
 }
 .skill-tag{
   font-family: "Quicksand", sans-serif;
@@ -276,20 +278,20 @@ ul li:hover ~ .cursor{
   transition: none;
   padding: 10px;
 }
-.skills .skill-tag:nth-child(n+10):nth-child(-n+16){
+.skills .skill-tag:nth-child(n+10):nth-child(-n+17){
   background-color: #99FFF5;
   color: #015950;
 }
-.skills .skill-tag:nth-child(n+18):nth-child(-n+23){
+.skills .skill-tag:nth-child(n+19):nth-child(-n+24){
   background-color: #dfff94;
   color: #385000;
 }
-.skills .skill-tag:nth-child(17){
+.skills .skill-tag:nth-child(18){
   background-color: transparent;
   border: 1px solid #e2fca5;
   color: #e2fca5;
 }
-.skills .skill-tag:nth-child(17):hover{
+.skills .skill-tag:nth-child(18):hover{
   transition: none;
   padding: 10px;
 }
